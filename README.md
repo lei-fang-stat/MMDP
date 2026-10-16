@@ -28,7 +28,7 @@ m_i = (\log \mathbf{w}_i)^\top \boldsymbol\gamma^0 + \delta_i, \qquad \mathbf{1}
 $$
 
 $$
-y_i = m_i\,\theta^* + (\log \mathbf{w}_i)^\top \boldsymbol\beta^0 + \varepsilon_i, \qquad \mathbf{1}_p^\top\boldsymbol\beta^0 = 0,
+y_i = m_i\ \theta^* + (\log \mathbf{w}_i)^\top \boldsymbol\beta^0 + \varepsilon_i, \qquad \mathbf{1}_p^\top\boldsymbol\beta^0 = 0,
 $$
 
 where $\theta^*$ is the direct effect of the metabolite on the outcome. The errors $\delta_i$ and $\varepsilon_i$
