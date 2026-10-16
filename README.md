@@ -1,4 +1,4 @@
-# predmetab
+# MMDP
 
 **Integrating complementary datasets to construct microbiome–metabolome–disease pathways**
 
