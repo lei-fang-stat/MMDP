@@ -1,0 +1,28 @@
+Package: predmetab
+Type: Package
+Title: Testing Predicted Metabolite-Outcome Associations Using
+        Microbiome Data
+Version: 0.1.0
+Authors@R: person("Lei", "Fang", email = "fangl17@miamioh.edu", role = c("aut", "cre"))
+Description: Implements a two-dataset workflow: a reference cohort that has
+    microbiome and metabolite profiles, and a target cohort that has
+    microbiome profiles and an outcome. Microbiome abundances are put through
+    an additive log-ratio (ALR) transform. Each metabolite is predicted from
+    the microbiome with the lasso in the reference cohort, and that prediction
+    is carried over to the target cohort. Its association with the outcome is
+    tested with a high-dimensional permutation test that adjusts for the
+    microbiome taxa selected by the lasso. The test follows the 'FLhd' procedure
+    of Hemerik, Thoresen and Finos (2021) <doi:10.1007/s00180-020-01001-6>.
+    Ridge penalties are chosen either by cross-validation or by REML.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: glmnet, glmmTMB (>= 1.1.8), parallel, stats, utils
+Suggests: phd, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-10-16 20:29:34 UTC; lei
+Author: Lei Fang [aut, cre]
+Maintainer: Lei Fang <fangl17@miamioh.edu>
