@@ -134,7 +134,7 @@ roles
 In the paper, the external dataset is iHMP (Lloyd-Price et al. 2019; 104 subjects with paired microbiome and
 metabolomics). The target dataset is FRAN (Franzosa et al. 2019; 153 subjects with fecal calprotectin). Both use
 86 shared microbial orders and 76 microbially related metabolites, from the curated collection of Muller et al.
-(2022), after batch-effect correction with MMUPHin (Ma et al. 2022). A pseudo-abundance of $10^{-8}$ was added
+(2022)(<https://github.com/borenstein-lab/microbiome-metabolome-curated-data/wiki/Data-overview#references>). A pseudo-abundance of $10^{-8}$ was added
 before the ALR transform.
 
 ```r
