@@ -168,8 +168,13 @@ If you use `MMDP`, please cite:
 > Fang L, Ye C, Wang Y. Integrating complementary datasets for constructing microbiome–metabolome–disease
 > pathways. *Bioinformatics* (accepted).
 
-
-
+## References
+Lloyd-Price J, Arze C, Ananthakrishnan AN *et al.* Multi-omics of the gut microbial ecosystem in inflammatory bowel
+diseases. *Nature* 2019;**569**:655–62.
+Franzosa EA, Sirota-Madi A, Avila-Pacheco J *et al.* Gut microbiome structure and metabolic activity in
+inflammatory bowel disease. *Nat Microbiol* 2019;**4**:293–305.
+Muller E, Algavi YM, Borenstein E. The gut microbiome-metabolome dataset collection: a curated resource for
+integrative meta-analysis. *NPJ Biofilms Microbiomes* 2022;**8**:79.
 
 ## License
 
